@@ -2,6 +2,7 @@ package com.johnrsps.game;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class World {
@@ -14,4 +15,20 @@ public class World {
     public static void addNpc(Npc npc) { npcs.add(npc); }
     public static void removeNpc(Npc npc) { npcs.remove(npc); }
     public static Set<Npc> getNpcs() { return Collections.unmodifiableSet(npcs); }
+
+    /** Game tick, called every 600ms */
+    public static void gameTick() {
+        synchronized(players) {
+            Iterator<Player> it = players.iterator();
+            while (it.hasNext()) {
+                Player player = it.next();
+                player.processTick();
+            }
+        }
+        synchronized(npcs) {
+            for (Npc npc : npcs) {
+                npc.processTick();
+            }
+        }
+    }
 }
